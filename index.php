@@ -11,12 +11,10 @@ require_once 'config.php';
 <body>
 
   <div style="width:700px; margin:50 auto;">
-    <h1>Demo Integrate Stripe Payment Gateway using PHP</h1>
+    <h1>Stripe Payment Gateway using PHP</h1>
 
     <!-- Display status message -->
     <div id="stripe-payment-message" class="hidden"></div>
-
-    <p><strong>Charge $10.00 with Stripe Demo Payment</strong></p>
 
     <form id="stripe-payment-form" class="hidden">
       <input type='hidden' id='publishable_key' value='<?php echo STRIPE_PUBLISHABLE_KEY; ?>'>
